@@ -38,5 +38,17 @@
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.46.2",
     "vite": "^7.1.7"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "npx eslint --fix",
+      " npx prettier --write"
+    ],
+    "*.{css,scss,less}": [
+      "prettier --write"
+    ],
+    "*.{json,md}": [
+      "npx prettier --write"
+    ]
   }
 }
