@@ -1,15 +1,13 @@
-import React from 'react';
+import React from 'react'
 
 import './App.css'
 
 function App() {
-
-
   return (
     <>
-      <div>
+      <div className='ola '>
         <h1>Oi</h1>
-        </div>
+      </div>
     </>
   )
 }
